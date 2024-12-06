@@ -74,7 +74,7 @@ for filename in os.listdir(image_path_input):
         if adjust_exposure:
             camera_ev = float(get_camera_ev(input_image))
             # Correct the compensation calculation
-            compensation = round(new_camera_ev - camera_ev, 2) + exposure_offset
+            compensation = round(camera_ev - new_camera_ev, 2) + exposure_offset
             variables_to_change = {'Temperature': temperature, 'Compensation': compensation}
         else:
             variables_to_change = {'Temperature': temperature}
