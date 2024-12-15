@@ -1,3 +1,6 @@
+# This Agisoft Metashape Pro python script will create reference positions for all cameras inside an imported lidar file.
+# By Jeffrey Ian Wilson for the 3D Scanning Masterclass (www.jeffreyianwilson.com)
+
 import Metashape
 import math
 
