@@ -1,6 +1,6 @@
 # 3D Scanning Masterclass
 A collection of python scripts for processing data for the 3D Scanning Masterclass.
-
+<br>
 <b>Image Processing/exif2csv.py</b><br>
 Python script to parse image exif metadata and compute exposure values into a CSV file then plot the exposure over time in a graph.<br><br>
 <b>Image Processing/rtProcessImages.py</b><br>
@@ -9,7 +9,7 @@ Python script using Raw Therapee CLI commands to read a raw therapee pp3 file th
 This python script will automatically add a directory of image masks then add them as an alpha channel for corresponding imagery.<br><br>
 <b>Image Processing/sortImagesIntoFolders.py</b><br>
 This python script will automatically sort a directory of images into folders based on the filename prefix.<br><br>
-
+<br>
 <b>Metashape/alignOptimizeCameras.py</b><br>
 This Agisoft Metashape Pro python script will automatically align, filter tie points and optimize cameras.<br><br>
 <b>Metashape/importMultiCameraRigMasks.py</b><br>
@@ -20,9 +20,9 @@ This python script will adjust the pitch, roll, yaw angles defined by user input
 This python script will export lidar panorama positions to a reference file<br><br>
 <b>Metashape/adjustReference.py</b><br>
 This python script will adjust the pitch, roll, yaw angles defined by user input<br><br>
-
+<br>
 <b>Point Clouds/ply2colmap.py</b><br>
 This python script will convert an ascii ply point cloud to a colmap compatible point cloud format<br><br>
-
+<br>
 <b>Segmentation/segmentImages.py</b><br>
 Python script to detect and mask objects using a trained Yolo segmentation model.<br><br>
