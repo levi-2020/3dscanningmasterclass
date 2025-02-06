@@ -1,3 +1,6 @@
+# This Agisoft Metashape Pro python script will automatically import masks on selected images for a multi-camera rig if subdirectory structure is the same.
+# By Jeffrey Ian Wilson for the 3D Scanning Masterclass (www.jeffreyianwilson.com)
+
 from ultralytics import YOLO
 import cv2, os
 from PIL import Image
