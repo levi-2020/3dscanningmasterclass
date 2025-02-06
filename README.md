@@ -19,7 +19,8 @@ This python script will adjust the pitch, roll, yaw angles defined by user input
 <b>Metashape/lidarPano2reference.py</b><br>
 This python script will export lidar panorama positions to a reference file<br><br>
 <b>Metashape/adjustReference.py</b><br>
-This python script will adjust the pitch, roll, yaw angles defined by user input.
+This python script will adjust the pitch, roll, yaw angles defined by user input.<br><br>
+
 <b>Point Clouds/ply2colmap.py</b><br>
 This python script will convert an ascii ply point cloud to a colmap compatible point cloud format
 
