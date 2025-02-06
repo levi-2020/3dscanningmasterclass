@@ -1,4 +1,4 @@
-# This Agisoft Metashape Pro python script will create reference positions for all cameras inside an imported lidar file.
+# This python script will export lidar panorama positions to a reference file
 # By Jeffrey Ian Wilson for the 3D Scanning Masterclass (www.jeffreyianwilson.com)
 
 import Metashape
@@ -63,7 +63,3 @@ for camera in chunk.cameras:
     # Set camera reference
     camera.reference.location = Metashape.Vector(camera_coord)
     camera.reference.rotation = Metashape.Vector([yaw, pitch, roll])
-
-# Save changes
-doc.save()
-print("Camera reference positions and rotations have been updated based on the LiDAR-derived coordinate system.")
