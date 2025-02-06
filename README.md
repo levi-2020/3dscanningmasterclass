@@ -8,7 +8,7 @@ Python script using Raw Therapee CLI commands to read a raw therapee pp3 file th
 <b>Image Processing/addAlpha2image.py</b><br>
 This python script will automatically add a directory of image masks then add them as an alpha channel for corresponding imagery.<br><br>
 <b>Image Processing/sortImagesIntoFolders.py</b><br>
-This python script will automatically sort a directory of images into folders based on the filename prefix.
+This python script will automatically sort a directory of images into folders based on the filename prefix.<br>
 <hr>
 <b>Metashape/alignOptimizeCameras.py</b><br>
 This Agisoft Metashape Pro python script will automatically align, filter tie points and optimize cameras.<br><br>
@@ -19,10 +19,10 @@ This python script will adjust the pitch, roll, yaw angles defined by user input
 <b>Metashape/lidarPano2reference.py</b><br>
 This python script will export lidar panorama positions to a reference file<br><br>
 <b>Metashape/adjustReference.py</b><br>
-This python script will adjust the pitch, roll, yaw angles defined by user input.<br><br>
+This python script will adjust the pitch, roll, yaw angles defined by user input.<br>
 <hr>
 <b>Point Clouds/ply2colmap.py</b><br>
-This python script will convert an ascii ply point cloud to a colmap compatible point cloud format
+This python script will convert an ascii ply point cloud to a colmap compatible point cloud format.
 <hr>
 <b>Segmentation/segmentImages.py</b><br>
 Python script to detect and mask objects using a trained Yolo segmentation model.<br><br>
