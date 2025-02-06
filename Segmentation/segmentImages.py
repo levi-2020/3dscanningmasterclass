@@ -66,7 +66,7 @@ def maskImage(segmentationClasses, mask_prefix, save_empty_masks, use_subdirs):
                                 save_path = output_dir
                             
                             # Save the mask with the user-defined prefix
-                            mask_filename = f"{mask_prefix}{os.path.splitext(f_img)[0]}_mask.png"
+                            mask_filename = f"{mask_prefix}{os.path.splitext(f_img)[0]}.png"
                             mask_image = Image.fromarray(mask)
                             mask_image.save(os.path.join(save_path, mask_filename))
                             
