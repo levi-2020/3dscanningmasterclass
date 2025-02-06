@@ -1,0 +1,5 @@
+C:\Apps\LAStools\bin\lasinfo.exe -i "D:\OneDrive\3D Scanning Masterclass\98 - Misc Data Sets\GeorgeAFB\USGS\USGS_LPC_CA_SanBernardinoCo_AreaB_2013_6746_2027_LAS_2018.laz"
+C:\Apps\LAStools\bin\las2las.exe -i "D:\OneDrive\3D Scanning Masterclass\98 - Misc Data Sets\GeorgeAFB\USGS\USGS_LPC_CA_SanBernardinoCo_AreaB_2013_6746_2027_LAS_2018.laz" -o "D:\OneDrive\3D Scanning Masterclass\98 - Misc Data Sets\GeorgeAFB\USGS\USGS_LPC_CA_SanBernardinoCo_AreaB_2013_6746_2027_LAS_2018_WGS84.laz" -target_epsg 4326
+lasvdatum64 -i Nad83\test.laz -epsg 26917 -vgrid g2012bu0.gtx -o Geoid12B\test.laz
+
+las2las -i input.laz -o output.laz -target_epsg 4326
