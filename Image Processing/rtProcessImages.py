@@ -52,15 +52,15 @@ def update_pp3_file(pp3_file, variables_to_change):
         f.writelines(all_lines)
 
 # Path to the directory of images
-image_path_input = "D:\\OneDrive\\3D Scanning Masterclass\\97 - Scan Capture and Processing\\01 - Raw Data\\2024-09-21\\Navvis VLX3\\2024-09-21_19.09.20\\camCC"
-image_path_output = "D:\\OneDrive\\3D Scanning Masterclass\\97 - Scan Capture and Processing\\02 - Source Data\\2024-09-21\\Navvis VLX3\\01_ev14.5"
-pp3_file = "D:\\OneDrive\\3D Scanning Masterclass\\97 - Scan Capture and Processing\\01 - Raw Data\\Color Calibration\\navvisVLX.pp3"
-temperature = 5500
-new_camera_ev = 14.5
+image_path_input = "D:\\OneDrive\\3D Scanning Masterclass\\97 - Scan Capture and Processing\\01 - Raw Data\\2024-09-21\\DJI Mavic 3E\\DNG"
+image_path_output = "D:\\OneDrive\\3D Scanning Masterclass\\97 - Scan Capture and Processing\\02 - Source Data\\2024-09-21\\DJI Mavic 3E\\evMatched"
+pp3_file = "D:/OneDrive/3D Scanning Masterclass/97 - Scan Capture and Processing/01 - Raw Data/Camera Calibration/djiMavic3E_linear.pp3"
+temperature = 6125 #6125 DJI #5720 A7r3
+new_camera_ev = 14.94
 base_ev = 0  # Reference point for EV adjustment
-exposure_offset = 0.0
+exposure_offset = 1.0
 adjust_exposure = True
-navvis_image = True
+navvis_image = False
 
 # Iterate over each file in the directory
 for filename in os.listdir(image_path_input):
